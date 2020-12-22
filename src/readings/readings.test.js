@@ -1,5 +1,4 @@
-const { meters, meterPricePlanMap } = require("../meters/meters");
-const { usageCost } = require("../usage/usage");
+const { meters } = require("../meters/meters");
 const { readings } = require("./readings");
 const { readingsData } = require("./readings.data");
 
