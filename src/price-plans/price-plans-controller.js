@@ -9,7 +9,7 @@ const recommend = (getReadings, req) => {
 const compare = (getData, req) => {
     const pricePlanComparisons = recommend(getData, req);
     return {
-        pricePlanId: req.params.smartMeterId,
+        smartMeterId: req.params.smartMeterId,
         pricePlanComparisons,
     };
 };
