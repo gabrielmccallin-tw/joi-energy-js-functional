@@ -83,7 +83,7 @@ _Tests will run in watch mode._
 Below is a list of API endpoints with their respective input and output. Please note that the application needs to be running. For more information about how to run the application, please refer to [run the application](#run-the-application) section below.
 
 ---
-## ➡️
+### ➡️
 ### Get readings
 ```
 GET /readings/read/<smartMeterId>
@@ -112,7 +112,7 @@ Example output
 ```
 
 ---
-## ➡️
+### ➡️
 ### Store readings
 ```
 POST /readings/store
@@ -159,7 +159,7 @@ $ curl \
 The above command returns 200 OK and all the readings for the smart meter.
 
 ---
-## ➡️
+### ➡️
 ### View current price plan and compare usage cost against all price plans
 
 Endpoint
@@ -184,7 +184,7 @@ Example output
 
 ```json
 {
-  "pricePlanId": "smart-meter-0",
+  "smartMeterId": "smart-meter-0",
   "pricePlanComparisons": [
     {
       "price-plan-0": 1.3096450044345258
@@ -200,7 +200,7 @@ Example output
 ```
 
 ---
-## ➡️
+### ➡️
 ### View recommended price plans for usage
 
 Endpoint
